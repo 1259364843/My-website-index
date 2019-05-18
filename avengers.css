@@ -1,0 +1,51 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+section
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: #000;
+}
+section .screen
+{
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    overflow: hidden;
+    transition: 1s;
+}
+section .screen:hover
+{
+    flex-grow: 5;
+    opacity: 1;
+
+}
+
+section:hover .screen
+{
+    opacity: 0.1;
+}
+
+section .screen:nth-child(1)
+{
+    background: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section .screen:nth-child(2)
+{
+    background: url(images/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section .screen:nth-child(3)
+{
+    background: url(images/img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
