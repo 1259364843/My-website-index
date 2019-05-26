@@ -1,0 +1,98 @@
+    /* 引用阿里的普惠体字体 */
+    @font-face {
+        font-family: 'webfont';
+        src: url('webfont.eot');
+        /* IE9*/
+        src: url('webfont.eot?#iefix') format('embedded-opentype'),
+            /* IE6-IE8 */
+            url('webfont.woff') format('woff'),
+            /* chrome、firefox */
+            url('webfont.ttf') format('truetype'),
+            /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url('webfont.svg#webfont') format('svg');
+        /* iOS 4.1- */
+    }
+    .web-font {
+        font-family: "webfont" !important;
+        font-size: 16px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    body{
+				padding: 50px 0;
+			}
+			img{
+				width: 100%;
+			}
+			.lunbotu{
+				height: 100%;  		/*设置轮播图片的高度*/
+				overflow: hidden; /*将元素溢出隐藏*/
+			}
+			.lunbotu .carousel-inner .item img{
+
+				width: 100%;
+				height: 100%;
+            }
+        .navlogo{
+                background-image: url(images/tjlogo.jpg);
+                width: 50px;
+                background-size: 75%;
+                background-repeat: no-repeat;
+                background-position: center center;
+        }
+      /* 设置自适应 */
+			@media only screen and (max-width:768px ) {
+				.lunbotu{
+					height: 200px;
+				}
+			}
+      /* 设置三列布局样式 */
+			.slbj{
+				margin-top: 50px;
+			}
+      /* 三列布局下的图片 */
+      .slbj img{
+      width: 70%;
+      }
+			.demo-row{
+				text-align: center;
+			}
+
+			.slbj2{
+				padding: 50px 0;
+			}
+
+			#demo-tab .tab-pane span{
+				font-size: 22px;
+			}
+			#demo-tab .tab-pane h2 span{
+				font-size: inherit;
+				color: gray;
+			}
+      /* 弹出的模态框 */
+      .tsk{
+        color: #66CCCC;
+        font-style:oblique;
+      }
+
+  		.demo-row{
+  		text-align: center;
+  		}
+      /* 分割线 */
+  		.fengexian{
+  		padding: 50px 0;
+  		}
+      .col-md-5 img{
+
+      }
+			/*底部区域上边距*/
+			footer{
+				margin-top: 50px;
+			}
+			/*底部区域颜色*/
+			footer span{
+				color: gray;
+			}
